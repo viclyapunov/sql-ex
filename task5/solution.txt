@@ -1,0 +1,7 @@
+select
+t.model, t.speed, t.hd
+from PC t
+where 
+t.cd in ('12x', '24x')
+and
+t.price < 600;
